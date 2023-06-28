@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sannidhi Naik - Frontend Development, Programming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Carlito:ital@0;1&family=Castoro+Titling&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+        <div class="sidebar">
+
+          <nav>
+            <ul>
+              
+                <li><a href="./index.html" id="list" src="https://yudrrpd1jthb9xglxkswuq.on.drv.tw/www.sannidhinaik.portfolio/">Home</a></li>
+                <li><a href="./my_intro.html" id="list" src="https://yudrrpd1jthb9xglxkswuq.on.drv.tw/www.sannidhinaik.portfolio/my_intro.html">My Intro</a></li>
+                <li><a href="./skills.html" id="list" src="https://yudrrpd1jthb9xglxkswuq.on.drv.tw/www.sannidhinaik.portfolio/skills.html">Skills</a></li>
+                <li><a href="./my_projects.html" id="list" src="https://yudrrpd1jthb9xglxkswuq.on.drv.tw/www.sannidhinaik.portfolio/my_projects.html">My projects</a></li>
+                
+              
+            </ul>
+          </nav>
+        </div>
+
+        
+        <div class="main">
+            
+              <div class="infoContainer" >
+                
+                <div class="devInfo">
+                    <div class="hello">
+
+                      <div class="wrapper">
+                        <div class="text first-text"></div>
+                        <span class="text sec-text"></span>                    
+                      </div>
+
+                      <div class="wrapper1">
+                        <div class="texts first-texts"></div>
+                        <span class="texts sec-texts"></span>
+                      </div>
+                    </div>
+                    
+                    
+
+                    <div class="buttons">
+                      <a href="My_CV.pdf" target="_blank"><button>Download CV</button></a>
+                      <a href="/contact.html" src="https://yudrrpd1jthb9xglxkswuq.on.drv.tw/www.sannidhinaik.portfolio/contact.html"><button>Contact me</button></a>
+                    </div>
+
+                    <script>
+                      const text= document.querySelector(".sec-text");
+                      const textLoad = () => {
+                        setTimeout(() => {
+                          text.textContent= "Welcome to my Portfolio";
+                        
+                        }, 0);
+                        
+                      
+                      
+                        setTimeout(() => {
+                          text.textContent= "Hi, I am Sannidhi Naik";
+                        
+                        }, 1000);
+                       
+                  
+                      textLoad();
+                    
+                      }
+                    </script>
+
+
+                    <script>
+                      const texts= document.querySelector(".sec-texts");
+                     
+                        setTimeout(() => {
+                          texts.textContent= " Skilled at FrontEnd Web Development, SQL databases and Python programming. I'm a second year student pursuing BSc in Computer Science. Searching for newer experiences  and learnings in this domain.";
+                        
+                        },3000);
+                        
+                      
+                      
+                        setTimeout(() => {
+                          texts.textContent= "";
+                        
+                        }, 2500);
+                       
+                        
+                      
+                      textLoad();
+                    
+                      
+                    </script>
+                        
+
+                   
+                    
+                    
+                
+                       
+                   
+                    
+                </div>
+              </div>
+        </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
