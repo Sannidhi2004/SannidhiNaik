@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Carlito:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Carlito:ital@0;1&family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Carlito:ital@0;1&family=Castoro+Titling&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+   
+}
+body{
+    background-color:rgb(107, 92, 92) ;
+    background-image: url(images/laptop.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ #list {
+    color: rgb(239, 239, 239);
+    text-decoration: none;
+}
+.sidebar{
+    background-color:rgb(107, 92, 92) ;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar nav{
+    padding: 40px;
+    box-sizing: content-box;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 60px 0;
+    font-size:xx-large;
+    color: rgb(247, 241, 247);
+}
+#list:hover{
+    color: rgb(108, 21, 21);
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+    
+    
+}
+
+.main{
+    background-color: rgba(88, 87, 83, 0.805);
+    width: 80vw;
+
+    
+    
+}
+.container{
+    display:flex;
+    
+    
+}
+.infoContainer{
+    
+     padding-top: 2cm;
+     margin-top: 110px;
+     margin-left: 1cm;
+     margin-right: 1cm;
+     height:12cm;
+     margin-bottom:2cm;
+     display: flex;
+    flex-direction: column;
+
+     
+     
+}
+.infoContainer span {
+       font-size:x-large;
+       margin-bottom: 3cm;
+     
+     
+}
+
+
+.devInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    
+
+}
+
+.hello{
+    font-size: larger;
+    color: rgb(226, 225, 217);
+}
+.buttons{
+    margin-top: 8cm;
+    margin-bottom: 1cm;
+}
+.buttons button{
+   padding: 0.3cm;
+   width: 3cm;
+   justify-content: space-around;
+   background-color:rgb(66, 111, 111);
+   border: 1px solid;
+   cursor: pointer;
+   color: rgb(211, 185, 110);
+   
+
+}
+.buttons button:hover{
+    color: rgb(247, 244, 236);
+    border-radius: 1cm;
+    
+   
+}
+   
+
+.infoContainer1{
+    display: flex;
+    flex-direction: row;
+    color: rgb(231, 238, 238);
+    align-items: center;
+    height:30rem;
+    width: 60rem;
+    margin: 2.5cm 2cm;
+    padding: 2.5cm 1cm;
+    font-weight: lighter;
+    font-size: small;
+    
+    /*font-family: 'Bruno Ace SC', cursive;*/
+    font-family: 'Carlito', sans-serif;
+    /*font-family: 'Castoro Titling', cursive;*/
+    
+
+}
+.devPic{
+    margin-left: 0.3cm;
+    margin-right: 2.5cm;
+    justify-content: space-around;
+    
+}
+.heading span{
+    color: rgb(238, 235, 231);
+    text-decoration: underline;
+}
+.infoContainer2{
+    background-color: rgb(155, 140, 122);
+    color: rgb(227, 235, 235);
+    align-items: center;
+    height:30rem;
+    width: 60rem;
+    margin: 2.5cm 2cm;
+    padding: 2.5cm 1cm;
+    font-style: normal;
+    
+}
+.main .infoContainer2 .skill{
+    margin: 3rem;
+    list-style-type: disc;
+    font-size: large;
+}
+.infoContainer3{
+    background-color: rgb(202, 193, 182);
+    color: rgb(24, 27, 27);
+    align-items: center;
+    height:30rem;
+    width: 60rem;
+    margin: 2.5cm 2cm;
+    padding: 2.5cm 1cm;
+    font-style: normal;
+    font-size:x-large;
+    
+    
+}
+.contact{
+    padding: 3rem;
+    border: 1px solid;
+    border-color: rgb(74, 41, 17);
+    border-radius: 0.2cm;
+    margin: 1cm;
+    background-color:rgb(175, 162, 162) ;
+}
+.contact:hover{
+  background-color: rgb(130, 158, 170);
+  font-size: xx-large;
+}
+
+.Proj{
+   color: rgb(96, 141, 141);
+   font-size:xx-large;
+   margin-top: 4cm;
+   margin-left: 4cm;
+}
+.Proj span{
+    color: rgb(22, 24, 21);
+    font-size:xx-large;
+    margin-top: 4cm;
+    margin-left: 8cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: larger;
+ }
+#proj{
+   height:8cm;
+   width: 10cm;
+   padding-right: 2cm;
+   padding-bottom: 1cm;
+   
+}
+.project span{
+    color: black;
+    font-weight: 700;
+    font-size: smaller;
+    margin-left: 0ch;
+}
+.project .grocery{
+    color: black;
+    font-size: smaller;
+    padding-bottom: 2cm;
+}
+#git{
+ color: rgb(62, 121, 231);}
+
+.music{
+    color: black;
+}
+.music a{
+    color: rgb(62, 121, 231)
+}
+
+
+.pro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    margin-left: 4%;
+}
+#button1{
+    background-color: rgb(172, 3, 228);
+    margin-left: 5.5cm;
+    margin-top: 15%;
+}
+#button1:hover{
+    font-size: larger;
+}
+.pro span{
+    color: rgb(243, 238, 231);
+    font-weight: 500;
+}
+.wrapper{
+    display: inline-block;
+    font-weight: bold;
+    font-size:xx-large;
+    width: 100%;
+    margin-right: 0%;
+    
+    
+    
+}
+.wrapper .text .first-text{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(237, 90, 90);
+}
+.wrapper .text .sec-text {
+    
+    list-style: none;
+    font-size: 70px;
+    font-weight: 500;
+    
+    position: relative;
+    color: rgb(211, 49, 49);
+    
+
+    
+}
+
+.wrapper .text .sec-text:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:17%;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #979090;
+    animation: typing 2s steps(18), 
+    cursor .4s step-end infinite alternate;
+    
+}
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+  }
+
+
+
+  .wrapper1{
+    display: inline-flex;
+    
+    
+    width: 100%;
+    margin-right: 0%;
+    
+}
+.wrapper1 .texts .first-texts{
+    font-size: 40px;
+    font-weight: 400;
+}
+.wrapper1 .texts .sec-texts {
+    color: #f8f0f0;
+    list-style: none;
+    font-size: 50px;
+    font-weight: 500;
+    font-weight: 700;
+}
+.wrapper1 .texts .sec-texts {
+    position: relative;
+}
+.wrapper1 .texts .sec-texts:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    border-left: 2px solid #f8f5f5;
+    animation: typing 10s steps(128) ;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes typing {
+    20%, 30%{
+      left: 30%;
+    }
+    100%{
+      left: 0%;
+    }
+  }
+
+
+@media screen and (width<=500px){
+    body{
+        background-image: url(images/laptop.jpg) ;
+        height: 100%;
+        
+        
+    }
+    .sidebar nav ul li{
+        font-size: 85%;
+        padding-bottom: 0.5cm;
+        margin-left:0%;
+        
+    }
+    
+
+    .infoContainer{
+        margin-left: 4cm;
+        padding-top: 0cm;
+        margin-bottom: 0cm;
+        
+        
+    }
+    .buttons a {
+        margin-top: 0cm;
+        margin-left: 0cm;
+        
+    }
+    .buttons button{
+       padding: 0.3cm;
+       width: 3cm;
+       font-size: smaller;
+       justify-content: space-around;
+       background-color:rgb(66, 111, 111);
+       border: 1px solid;
+       cursor: pointer;
+       color: rgb(217, 176, 30);
+       
+    
+    }
+    .wrapper1{
+        font-size:smaller;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .infoContainer1{
+        display: flex;
+        flex-direction: row;
+        color: rgb(215, 208, 199);
+        margin-top: 0%;
+        /*height:25px;*/
+        width: 150px;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 35%;
+        
+        
+        /*font-family: 'Bruno Ace SC', cursive;*/
+        font-family: 'Carlito', sans-serif;
+        /*font-family: 'Castoro Titling', cursive;*/
+        
+    
+    }
+    .devPic{
+        /*margin-left: 0.3cm;
+        margin-right: 2.5cm;
+        justify-content: space-around;*/
+        display: none;
+    }
+    .infoContainer2{
+        background-color: rgb(155, 140, 122);
+        color: rgb(227, 235, 235);
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 15%;
+        height:40rem;
+        width: 10rem;
+        
+       
+        font-style: normal;
+        
+    }
+    .skill{
+        font-size:5%;
+        padding: 0%;
+        margin-top: 5%;
+    }
+    #corr{
+        display: none;
+    
+
+    }
+    
+    .pro{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        margin-left: 4%;
+    }
+    #button1{
+        background-color: rgb(172, 3, 228);
+        margin-left: 5.5cm;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    #button1:hover{
+        font-size: larger;
+    }
+    .pro span{
+        color: rgb(243, 238, 231);
+        font-weight: 500;
+    }
+ 
+}
